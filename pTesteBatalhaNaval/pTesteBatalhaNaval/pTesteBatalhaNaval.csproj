@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{234FBB73-CAEB-402F-8043-E60F09BAA4B1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>pTesteBatalhaNaval</RootNamespace>
+    <AssemblyName>pTesteBatalhaNaval</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CircularProgressBar, Version=2.5.6403.13419, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CircularProgressBar.2.5.6403.13419\lib\net35-client\CircularProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WinFormAnimation, Version=1.5.6298.3372, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WinFormAnimation.1.5.6298.3372\lib\net35-client\WinFormAnimation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="creditos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="creditos.Designer.cs">
+      <DependentUpon>creditos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fimDeJogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fimDeJogo.Designer.cs">
+      <DependentUpon>fimDeJogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info.Designer.cs">
+      <DependentUpon>Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jogo.Designer.cs">
+      <DependentUpon>jogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="multiplayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="multiplayer.Designer.cs">
+      <DependentUpon>multiplayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="multiplayerLista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="multiplayerLista.Designer.cs">
+      <DependentUpon>multiplayerLista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel.Designer.cs">
+      <DependentUpon>Nivel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nomeSala.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nomeSala.Designer.cs">
+      <DependentUpon>nomeSala.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="singlePlayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="singlePlayer.Designer.cs">
+      <DependentUpon>singlePlayer.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="creditos.resx">
+      <DependentUpon>creditos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fimDeJogo.resx">
+      <DependentUpon>fimDeJogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info.resx">
+      <DependentUpon>Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jogo.resx">
+      <DependentUpon>jogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="multiplayer.resx">
+      <DependentUpon>multiplayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="multiplayerLista.resx">
+      <DependentUpon>multiplayerLista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel.resx">
+      <DependentUpon>Nivel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nomeSala.resx">
+      <DependentUpon>nomeSala.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="singlePlayer.resx">
+      <DependentUpon>singlePlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\intro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\madeira.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\canhaozinho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\naviowp1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\naviowp3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\naviowp2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\corinicialquadrados.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandeira.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandeira.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandeira1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandeira2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandeira3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandeira1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandeira2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandeira-corte.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandeira-corte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandeira-corte1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandeira-corte2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandeira-corte3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pearl harbor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blackyellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guerra1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inicio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inicio1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inicio2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inicio3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\urss3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prior.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guerra11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgMulti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgLista.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iron.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\try.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mapamomundiantigo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backehl.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backehl1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backehl2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\testegimp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trapezio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mapamundi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandeira-corte1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandeiraurss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgLista1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3esp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\naviowp11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shipdestoyed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagemMulti.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formLista.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selecao1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selecao2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selecao3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selecao4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selecao5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selecao6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selecao7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\submarinoPlano.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\imagens\COTUCA_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\imagens\unicamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\imagens\navy.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
