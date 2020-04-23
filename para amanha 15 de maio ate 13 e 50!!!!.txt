@@ -1,5 +1,0 @@
---> Fazer guardar num arquivo em q nivel o cara ta
---> Arrumar o bug do navio aparece o antigo (arrumar RecarregarDtg)
-
-Sandstorm darude
-five hours
