@@ -1,0 +1,51 @@
+Ranks Lista de Nomes e Quantidade de XP
+ 1 - Recruta             -     0 
+ 2 - Soldado             -    50
+ 3 - Cabo                -   150
+ 4 - Cabo I              -   300
+ 5 - Sargento            -   500
+ 6 - Sargento I          -   750
+ 7 - Sargento II         -  1050
+ 8 - Aspirante           -  1400
+ 9 - Aspirante I         -  1800
+10 - Aspirante II        -  2250
+11 - Aspirante III       -  2750
+12 - Capitão             -  3300
+13 - Capitão I           -  3900
+14 - Capitão II          -  4550
+15 - Capitão III         -  5250
+16 - Major               -  6000
+17 - Major I             -  6800
+18 - Major II            -  7650
+19 - Major III           -  8550
+20 - Tenente-Coronel     -  9500
+21 - Tenente-Coronel I   - 10500
+22 - Tenente-Coronel II  - 11550
+23 - Tenente-Coronel III - 12650
+24 - Comandante          - 13800
+25 - Comandante I        - 15000
+26 - Comandante II       - 16250
+27 - Comandante III      - 17550
+28 - Coronel             - 18900
+29 - Coronel I           - 20300
+30 - Coronel II          - 21750
+31 - Coronel III         - 23250
+32 - Brigadeiro          - 24800
+33 - Brigadeiro I        - 26400
+34 - Brigadeiro II       - 28050
+35 - Brigadeiro III      - 29750
+36 - General             - 31500
+37 - General I           - 33300
+38 - General II          - 35150
+39 - General III         - 37050
+40 - General IV          - 39000
+41 - Marechal            - 41000
+42 - Herói               - 43050
+43 - Lendário            - 45150
+44 - Mítico              - 47300
+45 - Nobre               - 49500
+46 - Eclipse             - 51750
+47 - Nova                - 54050
+48 - Dominador           - 56400
+49 - Conquistador        - 58800
+50 - Estrela Cadente     - 61250

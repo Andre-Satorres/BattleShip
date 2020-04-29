@@ -302,6 +302,9 @@
             // 
             // dtgAtaque
             // 
+            //this.dtgAtaque.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
+            //this.dtgAtaque.GridColor = System.Drawing.Color.BlueViolet;
+
             this.dtgAtaque.AllowUserToAddRows = false;
             this.dtgAtaque.AllowUserToDeleteRows = false;
             this.dtgAtaque.AllowUserToResizeColumns = false;

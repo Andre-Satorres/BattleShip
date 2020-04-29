@@ -88,7 +88,6 @@
             // btnIniciar
             // 
             this.btnIniciar.BackColor = System.Drawing.Color.Transparent;
-            this.btnIniciar.BackgroundImage = global::pTesteBatalhaNaval.Properties.Resources._try;
             this.btnIniciar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnIniciar.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIniciar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -128,7 +127,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::pTesteBatalhaNaval.Properties.Resources.shipdestoyed;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(684, 391);
             this.Controls.Add(this.pbxAudio);

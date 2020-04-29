@@ -58,7 +58,6 @@
             // btnProx
             // 
             this.btnProx.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.btnProx.BackgroundImage = global::pTesteBatalhaNaval.Properties.Resources._try;
             this.btnProx.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnProx.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProx.Location = new System.Drawing.Point(225, 342);
@@ -98,7 +97,6 @@
             // btnTryAgain
             // 
             this.btnTryAgain.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.btnTryAgain.BackgroundImage = global::pTesteBatalhaNaval.Properties.Resources._try;
             this.btnTryAgain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnTryAgain.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTryAgain.Location = new System.Drawing.Point(361, 342);
@@ -113,7 +111,6 @@
             // btnGoBack
             // 
             this.btnGoBack.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.btnGoBack.BackgroundImage = global::pTesteBatalhaNaval.Properties.Resources._try;
             this.btnGoBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnGoBack.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGoBack.Location = new System.Drawing.Point(225, 342);

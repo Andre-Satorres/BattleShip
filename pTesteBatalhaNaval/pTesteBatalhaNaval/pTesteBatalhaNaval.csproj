@@ -113,11 +113,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs" />
+    <Compile Include="Properties\Settings.Designer.cs" />
     <Compile Include="singlePlayer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -155,224 +152,19 @@
       <DependentUpon>nomeSala.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="singlePlayer.resx">
       <DependentUpon>singlePlayer.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="bin\imagens\cut_images_archive_gq1jtAxqzw.zip" />
+    <None Include="bin\imagens\Thumbs.db" />
+    <None Include="bin\imagens\urss\SilkRemington-SBold.ttf" />
     <None Include="packages.config" />
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-    </Compile>
+    <None Include="Properties\Settings.settings" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\intro.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\madeira.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\canhaozinho.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\naviowp1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\naviowp3.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\naviowp2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\corinicialquadrados.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bandeira.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bandeira.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bandeira1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bandeira2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bandeira3.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bandeira1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bandeira2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bandeira-corte.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bandeira-corte.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bandeira-corte1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bandeira-corte2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bandeira-corte3.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pearl harbor.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\black.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\blackyellow.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\black1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\guerra1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\inicio.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\inicio1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\inicio2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\inicio3.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\urss3.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Screenshot_1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\next.bmp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\prior.bmp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\guerra11.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\imgMulti.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\imgLista.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\splash.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\iron.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\try.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\mapamomundiantigo.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\backehl.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\backehl1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\backehl2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\testegimp.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\trapezio.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\mapamundi.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bandeira-corte1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bandeiraurss.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\imgLista1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\3esp.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\naviowp11.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shipdestoyed.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\imagemMulti.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\formLista.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\selecao1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\selecao2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\selecao3.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\selecao4.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\selecao5.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\selecao6.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\selecao7.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\submarinoPlano.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\vs.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\2-1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\3-1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\4-1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\5-1.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\imagens\COTUCA_logo.png" />
@@ -382,6 +174,969 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\imagens\navy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\audios\a juntar\Betrayal Desolation.mp3" />
+    <Content Include="bin\audios\a juntar\Betrayal Desolation.wav" />
+    <Content Include="bin\audios\a juntar\Full Attack.mp3" />
+    <Content Include="bin\audios\a juntar\Full Attack.wav" />
+    <Content Include="bin\audios\a juntar\Its Your Ship Now.mp3" />
+    <Content Include="bin\audios\a juntar\Its Your Ship Now.wav" />
+    <Content Include="bin\audios\a juntar\Revenge.mp3" />
+    <Content Include="bin\audios\a juntar\Revenge.wav" />
+    <Content Include="bin\audios\a juntar\The Battle Of Stirling.mp3" />
+    <Content Include="bin\audios\a juntar\The Battle Of Stirling.wav" />
+    <Content Include="bin\audios\a juntar\The Beacon Project.mp3" />
+    <Content Include="bin\audios\a juntar\The Beacon Project.wav" />
+    <Content Include="bin\audios\a juntar\Thug Fight.mp3" />
+    <Content Include="bin\audios\a juntar\Thug Fight.wav" />
+    <Content Include="bin\audios\defeated.wav" />
+    <Content Include="bin\audios\explo.mp3" />
+    <Content Include="bin\audios\explo.wav" />
+    <Content Include="bin\audios\hinos\eua.mp3" />
+    <Content Include="bin\audios\hinos\eua.wav" />
+    <Content Include="bin\audios\hinos\inglaterra.mp3" />
+    <Content Include="bin\audios\hinos\inglaterra.wav" />
+    <Content Include="bin\audios\hinos\japao.mp3" />
+    <Content Include="bin\audios\hinos\japao.wav" />
+    <Content Include="bin\audios\hinos\nazista.mp3" />
+    <Content Include="bin\audios\hinos\nazista.wav" />
+    <Content Include="bin\audios\hinos\sovietico.mp3" />
+    <Content Include="bin\audios\hinos\sovietico.wav" />
+    <Content Include="bin\audios\hope.m4a" />
+    <Content Include="bin\audios\hope.mp3" />
+    <Content Include="bin\audios\hope.wav" />
+    <Content Include="bin\audios\main.mp3" />
+    <Content Include="bin\audios\main.wav" />
+    <Content Include="bin\audios\victory.wav" />
+    <Content Include="bin\audios\water.mp3" />
+    <Content Include="bin\audios\water.wav" />
+    <Content Include="bin\imagens\1200px-Naval_ensign_of_the_Empire_of_Japan.svg.png" />
+    <Content Include="bin\imagens\alemanha\1.jpg" />
+    <Content Include="bin\imagens\alemanha\2.jpg" />
+    <Content Include="bin\imagens\alemanha\4.jpg" />
+    <Content Include="bin\imagens\alemanha\alemanha.jpg" />
+    <Content Include="bin\imagens\alemanha\anotherone.jpg" />
+    <Content Include="bin\imagens\alemanha\axis_invasions.jpg" />
+    <Content Include="bin\imagens\alemanha\bandeira-corte.png" />
+    <Content Include="bin\imagens\alemanha\bandeira.png" />
+    <Content Include="bin\imagens\alemanha\bandeirabalanc.jpg" />
+    <Content Include="bin\imagens\alemanha\encouracado.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_001.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_002.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_003.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_004.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_005.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_006.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_007.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_008.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_009.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_010.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_011.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_012.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_013.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_014.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_015.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_016.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_017.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_018.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_019.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_020.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_021.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_022.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_023.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_024.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_025.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_026.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_027.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_028.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_029.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_030.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_031.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_032.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_033.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_034.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_035.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_036.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_037.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_038.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_039.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_040.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_041.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_042.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_043.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_044.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_045.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_046.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_047.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_048.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_049.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_050.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_051.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_052.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_053.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_054.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_055.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_056.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_057.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_058.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_059.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_060.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_061.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_062.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_063.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_064.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_065.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_066.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_067.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_068.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_069.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_070.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_071.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_072.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_073.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_074.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_075.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_076.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_077.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_078.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_079.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_080.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_081.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_082.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_083.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_084.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_085.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_086.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_087.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_088.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_089.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_090.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_091.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_092.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_093.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_094.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_095.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_096.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_097.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_098.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_099.jpg" />
+    <Content Include="bin\imagens\alemanha\imgs\imgs\image_part_100.jpg" />
+    <Content Include="bin\imagens\alemanha\kriegsmarine.png" />
+    <Content Include="bin\imagens\alemanha\naziflag.png" />
+    <Content Include="bin\imagens\alemanha\naziflagc.png" />
+    <Content Include="bin\imagens\alemanha\nivel.png" />
+    <Content Include="bin\imagens\alemanha\swastika.jpg" />
+    <Content Include="bin\imagens\alemanha\tallinn.jpg" />
+    <Content Include="bin\imagens\arrow-down.png" />
+    <Content Include="bin\imagens\arrow-left.png" />
+    <Content Include="bin\imagens\arrow-right.png" />
+    <Content Include="bin\imagens\arrow-up.png" />
+    <Content Include="bin\imagens\backCast.jpg" />
+    <Content Include="bin\imagens\backehl.jpg" />
+    <Content Include="bin\imagens\backgroundtry20.jpg" />
+    <Content Include="bin\imagens\bandeiraurss.png" />
+    <Content Include="bin\imagens\barco.ico" />
+    <Content Include="bin\imagens\black.png" />
+    <Content Include="bin\imagens\blackyellow.png" />
+    <Content Include="bin\imagens\blue.png" />
+    <Content Include="bin\imagens\camoAzul.jpg" />
+    <Content Include="bin\imagens\canhaozinho.png" />
+    <Content Include="bin\imagens\corinicialquadrados.jpg" />
+    <Content Include="bin\imagens\defeated1.png" />
+    <Content Include="bin\imagens\defeated2.jpg" />
+    <Content Include="bin\imagens\del.png" />
+    <Content Include="bin\imagens\enter.png" />
+    <Content Include="bin\imagens\enter2.png" />
+    <Content Include="bin\imagens\enter3.png" />
+    <Content Include="bin\imagens\eua\1.gif" />
+    <Content Include="bin\imagens\eua\2.jpg" />
+    <Content Include="bin\imagens\eua\amercian flag.png" />
+    <Content Include="bin\imagens\eua\amercian flag2.png" />
+    <Content Include="bin\imagens\eua\amercian flagc.png" />
+    <Content Include="bin\imagens\eua\americanflag.png" />
+    <Content Include="bin\imagens\eua\americanflag2.png" />
+    <Content Include="bin\imagens\eua\bandeira-corte.png" />
+    <Content Include="bin\imagens\eua\bandeira.png" />
+    <Content Include="bin\imagens\eua\diaD.jpg" />
+    <Content Include="bin\imagens\eua\eua.jpg" />
+    <Content Include="bin\imagens\eua\eua2.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_001.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_002.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_003.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_004.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_005.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_006.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_007.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_008.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_009.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_010.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_011.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_012.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_013.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_014.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_015.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_016.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_017.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_018.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_019.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_020.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_021.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_022.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_023.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_024.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_025.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_026.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_027.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_028.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_029.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_030.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_031.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_032.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_033.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_034.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_035.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_036.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_037.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_038.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_039.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_040.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_041.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_042.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_043.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_044.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_045.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_046.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_047.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_048.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_049.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_050.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_051.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_052.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_053.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_054.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_055.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_056.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_057.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_058.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_059.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_060.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_061.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_062.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_063.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_064.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_065.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_066.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_067.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_068.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_069.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_070.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_071.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_072.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_073.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_074.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_075.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_076.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_077.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_078.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_079.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_080.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_081.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_082.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_083.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_084.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_085.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_086.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_087.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_088.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_089.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_090.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_091.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_092.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_093.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_094.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_095.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_096.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_097.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_098.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_099.jpg" />
+    <Content Include="bin\imagens\eua\imgs\imgs\image_part_100.jpg" />
+    <Content Include="bin\imagens\eua\midway.jpg" />
+    <Content Include="bin\imagens\eua\nivel.png" />
+    <Content Include="bin\imagens\eua\overlord.jpg" />
+    <Content Include="bin\imagens\eua\pearl harbor.jpg" />
+    <Content Include="bin\imagens\eua\us_logo.png" />
+    <Content Include="bin\imagens\explo.jpg" />
+    <Content Include="bin\imagens\explo.png" />
+    <Content Include="bin\imagens\explosion gif.gif" />
+    <Content Include="bin\imagens\explosion gif2.gif" />
+    <Content Include="bin\imagens\explosion-animated-gif-5.gif" />
+    <Content Include="bin\imagens\firegif.gif" />
+    <Content Include="bin\imagens\formLista.jpg" />
+    <Content Include="bin\imagens\imgLista.png" />
+    <Content Include="bin\imagens\imgMulti.png" />
+    <Content Include="bin\imagens\inglaterra\1.jpg" />
+    <Content Include="bin\imagens\inglaterra\2.jpg" />
+    <Content Include="bin\imagens\inglaterra\5.jpg" />
+    <Content Include="bin\imagens\inglaterra\6.jpg" />
+    <Content Include="bin\imagens\inglaterra\atlantic_war.jpg" />
+    <Content Include="bin\imagens\inglaterra\band.png" />
+    <Content Include="bin\imagens\inglaterra\bandeira-corte.png" />
+    <Content Include="bin\imagens\inglaterra\bandeira.png" />
+    <Content Include="bin\imagens\inglaterra\england_logo.png" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_001.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_002.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_003.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_004.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_005.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_006.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_007.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_008.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_009.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_010.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_011.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_012.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_013.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_014.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_015.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_016.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_017.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_018.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_019.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_020.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_021.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_022.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_023.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_024.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_025.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_026.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_027.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_028.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_029.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_030.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_031.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_032.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_033.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_034.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_035.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_036.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_037.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_038.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_039.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_040.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_041.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_042.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_043.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_044.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_045.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_046.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_047.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_048.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_049.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_050.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_051.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_052.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_053.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_054.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_055.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_056.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_057.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_058.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_059.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_060.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_061.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_062.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_063.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_064.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_065.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_066.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_067.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_068.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_069.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_070.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_071.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_072.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_073.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_074.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_075.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_076.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_077.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_078.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_079.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_080.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_081.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_082.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_083.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_084.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_085.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_086.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_087.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_088.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_089.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_090.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_091.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_092.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_093.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_094.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_095.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_096.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_097.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_098.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_099.jpg" />
+    <Content Include="bin\imagens\inglaterra\imgs\imgs\image_part_100.jpg" />
+    <Content Include="bin\imagens\inglaterra\ingl flag.svg" />
+    <Content Include="bin\imagens\inglaterra\inglaflagf.png" />
+    <Content Include="bin\imagens\inglaterra\inglaflagfc.png" />
+    <Content Include="bin\imagens\inglaterra\inglaterra.png" />
+    <Content Include="bin\imagens\inglaterra\Logo_of_the_Royal_Navy.svg.png" />
+    <Content Include="bin\imagens\inglaterra\mediterranean_battles.jpg" />
+    <Content Include="bin\imagens\inglaterra\nivel.png" />
+    <Content Include="bin\imagens\intro.jpg" />
+    <Content Include="bin\imagens\iron.jpg" />
+    <Content Include="bin\imagens\japao\1.JPG" />
+    <Content Include="bin\imagens\japao\2.jpg" />
+    <Content Include="bin\imagens\japao\bandeira-corte.png" />
+    <Content Include="bin\imagens\japao\bandeira.png" />
+    <Content Include="bin\imagens\japao\couracado.jpg" />
+    <Content Include="bin\imagens\japao\guadalcanal.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_001.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_001.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_002.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_002.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_003.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_003.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_004.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_004.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_005.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_005.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_006.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_006.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_007.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_007.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_008.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_008.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_009.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_009.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_010.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_010.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_011.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_011.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_012.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_012.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_013.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_013.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_014.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_014.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_015.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_015.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_016.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_016.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_017.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_017.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_018.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_018.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_019.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_019.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_020.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_020.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_021.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_021.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_022.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_022.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_023.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_023.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_024.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_024.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_025.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_025.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_026.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_026.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_027.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_027.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_028.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_028.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_029.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_029.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_030.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_030.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_031.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_031.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_032.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_032.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_033.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_033.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_034.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_034.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_035.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_035.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_036.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_036.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_037.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_037.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_038.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_038.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_039.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_039.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_040.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_040.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_041.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_041.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_042.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_042.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_043.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_043.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_044.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_044.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_045.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_045.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_046.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_046.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_047.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_047.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_048.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_048.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_049.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_049.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_050.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_050.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_051.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_051.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_052.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_052.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_053.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_053.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_054.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_054.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_055.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_055.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_056.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_056.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_057.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_057.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_058.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_058.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_059.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_059.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_060.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_060.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_061.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_061.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_062.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_062.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_063.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_063.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_064.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_064.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_065.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_065.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_066.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_066.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_067.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_067.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_068.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_068.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_069.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_069.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_070.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_070.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_071.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_071.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_072.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_072.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_073.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_073.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_074.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_074.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_075.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_075.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_076.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_076.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_077.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_077.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_078.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_078.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_079.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_079.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_080.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_080.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_081.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_081.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_082.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_082.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_083.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_083.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_084.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_084.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_085.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_085.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_086.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_086.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_087.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_087.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_088.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_088.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_089.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_089.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_090.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_090.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_091.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_091.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_092.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_092.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_093.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_093.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_094.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_094.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_095.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_095.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_096.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_096.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_097.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_097.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_098.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_098.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_099.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_099.png" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_100.jpg" />
+    <Content Include="bin\imagens\japao\imgs\imgs\image_part_100.png" />
+    <Content Include="bin\imagens\japao\japan_flag.png" />
+    <Content Include="bin\imagens\japao\japan_flagc.png" />
+    <Content Include="bin\imagens\japao\japan_logo.jpg" />
+    <Content Include="bin\imagens\japao\japan_ship.jpg" />
+    <Content Include="bin\imagens\japao\japao.jpg" />
+    <Content Include="bin\imagens\japao\japao3.jpg" />
+    <Content Include="bin\imagens\japao\japao_logo.png" />
+    <Content Include="bin\imagens\japao\java_sea.jpg" />
+    <Content Include="bin\imagens\japao\marinha imperial do japao.png" />
+    <Content Include="bin\imagens\japao\nivel.png" />
+    <Content Include="bin\imagens\japao\pearl_harbor.jpg" />
+    <Content Include="bin\imagens\leftwhite.png" />
+    <Content Include="bin\imagens\Loudspeaker.png" />
+    <Content Include="bin\imagens\loudspeakerMute.png" />
+    <Content Include="bin\imagens\madeira.png" />
+    <Content Include="bin\imagens\mapamomundiantigo.jpg" />
+    <Content Include="bin\imagens\mapamundi.png" />
+    <Content Include="bin\imagens\navios\1.2.png" />
+    <Content Include="bin\imagens\navios\1.3.png" />
+    <Content Include="bin\imagens\navios\1.4.png" />
+    <Content Include="bin\imagens\navios\1.5.png" />
+    <Content Include="bin\imagens\navios\2.2.png" />
+    <Content Include="bin\imagens\navios\2.3.png" />
+    <Content Include="bin\imagens\navios\2.4.png" />
+    <Content Include="bin\imagens\navios\2.5.png" />
+    <Content Include="bin\imagens\navios\3.3.png" />
+    <Content Include="bin\imagens\navios\3.4.png" />
+    <Content Include="bin\imagens\navios\3.5.png" />
+    <Content Include="bin\imagens\navios\4.4.png" />
+    <Content Include="bin\imagens\navios\4.5.png" />
+    <Content Include="bin\imagens\navios\5.5.png" />
+    <Content Include="bin\imagens\navios\a\2-1.png" />
+    <Content Include="bin\imagens\navios\a\2-2.png" />
+    <Content Include="bin\imagens\navios\a\2\2-1.png" />
+    <Content Include="bin\imagens\navios\a\2\2-2.png" />
+    <Content Include="bin\imagens\navios\a\3-1.png" />
+    <Content Include="bin\imagens\navios\a\3-2.png" />
+    <Content Include="bin\imagens\navios\a\3-3.png" />
+    <Content Include="bin\imagens\navios\a\3\3-1.png" />
+    <Content Include="bin\imagens\navios\a\3\3-2.png" />
+    <Content Include="bin\imagens\navios\a\3\3-3.png" />
+    <Content Include="bin\imagens\navios\a\4-1.png" />
+    <Content Include="bin\imagens\navios\a\4-2.png" />
+    <Content Include="bin\imagens\navios\a\4-3.png" />
+    <Content Include="bin\imagens\navios\a\4-4.png" />
+    <Content Include="bin\imagens\navios\a\4\4-1.png" />
+    <Content Include="bin\imagens\navios\a\4\4-2.png" />
+    <Content Include="bin\imagens\navios\a\4\4-3.png" />
+    <Content Include="bin\imagens\navios\a\4\4-4.png" />
+    <Content Include="bin\imagens\navios\a\5-1.png" />
+    <Content Include="bin\imagens\navios\a\5-2.png" />
+    <Content Include="bin\imagens\navios\a\5-3.png" />
+    <Content Include="bin\imagens\navios\a\5-4.png" />
+    <Content Include="bin\imagens\navios\a\5-5.png" />
+    <Content Include="bin\imagens\navios\a\5\5-1.png" />
+    <Content Include="bin\imagens\navios\a\5\5-2.png" />
+    <Content Include="bin\imagens\navios\a\5\5-3.png" />
+    <Content Include="bin\imagens\navios\a\5\5-4.png" />
+    <Content Include="bin\imagens\navios\a\5\5-5.png" />
+    <Content Include="bin\imagens\navios\inteiros\2-1.png" />
+    <Content Include="bin\imagens\navios\inteiros\2.png" />
+    <Content Include="bin\imagens\navios\inteiros\3-1.png" />
+    <Content Include="bin\imagens\navios\inteiros\3.png" />
+    <Content Include="bin\imagens\navios\inteiros\4-1.png" />
+    <Content Include="bin\imagens\navios\inteiros\4.png" />
+    <Content Include="bin\imagens\navios\inteiros\5-1.png" />
+    <Content Include="bin\imagens\navios\inteiros\5.png" />
+    <Content Include="bin\imagens\naviowp1.jpg" />
+    <Content Include="bin\imagens\naviowp2.jpg" />
+    <Content Include="bin\imagens\naviowp3.jpg" />
+    <Content Include="bin\imagens\Old-Paper-Texture-117552813.jpg" />
+    <Content Include="bin\imagens\pa.png" />
+    <Content Include="bin\imagens\portaaviaos.png" />
+    <Content Include="bin\imagens\portaaviaos1.png" />
+    <Content Include="bin\imagens\ranks\1.png" />
+    <Content Include="bin\imagens\ranks\10.png" />
+    <Content Include="bin\imagens\ranks\11.png" />
+    <Content Include="bin\imagens\ranks\12.png" />
+    <Content Include="bin\imagens\ranks\13.png" />
+    <Content Include="bin\imagens\ranks\14.png" />
+    <Content Include="bin\imagens\ranks\15.png" />
+    <Content Include="bin\imagens\ranks\16.png" />
+    <Content Include="bin\imagens\ranks\17.png" />
+    <Content Include="bin\imagens\ranks\18.png" />
+    <Content Include="bin\imagens\ranks\19.png" />
+    <Content Include="bin\imagens\ranks\2.png" />
+    <Content Include="bin\imagens\ranks\20.png" />
+    <Content Include="bin\imagens\ranks\21.png" />
+    <Content Include="bin\imagens\ranks\22.png" />
+    <Content Include="bin\imagens\ranks\23.png" />
+    <Content Include="bin\imagens\ranks\24.png" />
+    <Content Include="bin\imagens\ranks\25.png" />
+    <Content Include="bin\imagens\ranks\26.png" />
+    <Content Include="bin\imagens\ranks\27.png" />
+    <Content Include="bin\imagens\ranks\28.png" />
+    <Content Include="bin\imagens\ranks\29.png" />
+    <Content Include="bin\imagens\ranks\3.png" />
+    <Content Include="bin\imagens\ranks\30.png" />
+    <Content Include="bin\imagens\ranks\31.png" />
+    <Content Include="bin\imagens\ranks\32.png" />
+    <Content Include="bin\imagens\ranks\33.png" />
+    <Content Include="bin\imagens\ranks\34.png" />
+    <Content Include="bin\imagens\ranks\35.png" />
+    <Content Include="bin\imagens\ranks\36.png" />
+    <Content Include="bin\imagens\ranks\37.png" />
+    <Content Include="bin\imagens\ranks\38.png" />
+    <Content Include="bin\imagens\ranks\39.png" />
+    <Content Include="bin\imagens\ranks\4.png" />
+    <Content Include="bin\imagens\ranks\40.png" />
+    <Content Include="bin\imagens\ranks\41.png" />
+    <Content Include="bin\imagens\ranks\42.png" />
+    <Content Include="bin\imagens\ranks\43.png" />
+    <Content Include="bin\imagens\ranks\44.png" />
+    <Content Include="bin\imagens\ranks\45.png" />
+    <Content Include="bin\imagens\ranks\46.png" />
+    <Content Include="bin\imagens\ranks\47.png" />
+    <Content Include="bin\imagens\ranks\48.png" />
+    <Content Include="bin\imagens\ranks\49.png" />
+    <Content Include="bin\imagens\ranks\5.png" />
+    <Content Include="bin\imagens\ranks\50.png" />
+    <Content Include="bin\imagens\ranks\6.png" />
+    <Content Include="bin\imagens\ranks\7.png" />
+    <Content Include="bin\imagens\ranks\8.png" />
+    <Content Include="bin\imagens\ranks\9.png" />
+    <Content Include="bin\imagens\ranks\ranks.txt" />
+    <Content Include="bin\imagens\rightwhite.png" />
+    <Content Include="bin\imagens\selecao1.jpg" />
+    <Content Include="bin\imagens\selecao2.jpg" />
+    <Content Include="bin\imagens\selecao3.jpg" />
+    <Content Include="bin\imagens\selecao4.jpg" />
+    <Content Include="bin\imagens\selecao5.jpg" />
+    <Content Include="bin\imagens\selecao6.jpg" />
+    <Content Include="bin\imagens\selecao7.jpg" />
+    <Content Include="bin\imagens\seta dir.png" />
+    <Content Include="bin\imagens\seta esq.png" />
+    <Content Include="bin\imagens\splash.png" />
+    <Content Include="bin\imagens\submarino.jpg" />
+    <Content Include="bin\imagens\submarinoPlano.jpg" />
+    <Content Include="bin\imagens\testegimp.jpg" />
+    <Content Include="bin\imagens\trapezio.png" />
+    <Content Include="bin\imagens\try.jpg" />
+    <Content Include="bin\imagens\tryehl.png" />
+    <Content Include="bin\imagens\turn.png" />
+    <Content Include="bin\imagens\urss\1.jpg" />
+    <Content Include="bin\imagens\urss\2.jpg" />
+    <Content Include="bin\imagens\urss\bandeira-corte.jpg" />
+    <Content Include="bin\imagens\urss\bandeira.jpg" />
+    <Content Include="bin\imagens\urss\bandeira5.jpg" />
+    <Content Include="bin\imagens\urss\bandeiragde.jpg" />
+    <Content Include="bin\imagens\urss\bandeiraurss.png" />
+    <Content Include="bin\imagens\urss\bandeiraurssc.png" />
+    <Content Include="bin\imagens\urss\batalhaDoPacifico.JPG" />
+    <Content Include="bin\imagens\urss\flag.png" />
+    <Content Include="bin\imagens\urss\guerra1.png" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_001.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_002.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_003.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_004.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_005.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_006.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_007.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_008.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_009.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_010.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_011.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_012.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_013.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_014.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_015.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_016.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_017.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_018.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_019.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_020.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_021.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_022.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_023.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_024.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_025.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_026.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_027.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_028.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_029.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_030.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_031.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_032.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_033.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_034.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_035.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_036.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_037.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_038.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_039.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_040.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_041.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_042.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_043.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_044.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_045.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_046.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_047.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_048.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_049.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_050.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_051.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_052.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_053.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_054.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_055.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_056.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_057.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_058.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_059.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_060.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_061.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_062.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_063.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_064.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_065.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_066.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_067.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_068.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_069.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_070.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_071.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_072.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_073.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_074.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_075.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_076.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_077.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_078.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_079.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_080.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_081.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_082.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_083.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_084.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_085.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_086.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_087.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_088.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_089.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_090.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_091.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_092.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_093.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_094.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_095.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_096.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_097.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_098.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_099.jpg" />
+    <Content Include="bin\imagens\urss\imgs\imgs\image_part_100.jpg" />
+    <Content Include="bin\imagens\urss\inicio.png" />
+    <Content Include="bin\imagens\urss\logoUrss.jpg" />
+    <Content Include="bin\imagens\urss\Naval_ensign_of_the_Empire_of_Japan.svg" />
+    <Content Include="bin\imagens\urss\nivel.png" />
+    <Content Include="bin\imagens\urss\Screenshot_1.png" />
+    <Content Include="bin\imagens\urss\shipdestroyed.jpg" />
+    <Content Include="bin\imagens\urss\soviet navy.png" />
+    <Content Include="bin\imagens\urss\soviet_logo.png" />
+    <Content Include="bin\imagens\urss\urss2.jpg" />
+    <Content Include="bin\imagens\urss\urss3.jpg" />
+    <Content Include="bin\imagens\urss\urss4.jpg" />
+    <Content Include="bin\imagens\vs.png" />
+    <Content Include="bin\imagens\water.jpg" />
+    <Content Include="bin\imagens\water2.jpg" />
+    <Content Include="bin\imagens\water3.png" />
+    <Content Include="bin\imagens\y.jpg" />
+    <Content Include="bin\imagens\zegostou.jpg" />
+    <Content Include="Resources\2-1.png" />
+    <Content Include="Resources\3-1.png" />
+    <Content Include="Resources\3esp.png" />
+    <Content Include="Resources\4-1.png" />
+    <Content Include="Resources\5-1.png" />
+    <Content Include="Resources\backehl.jpg" />
+    <Content Include="Resources\backehl1.jpg" />
+    <Content Include="Resources\backehl2.jpg" />
+    <Content Include="Resources\bandeira-corte.jpg" />
+    <Content Include="Resources\bandeira-corte.png" />
+    <Content Include="Resources\bandeira-corte1.jpg" />
+    <Content Include="Resources\bandeira-corte1.png" />
+    <Content Include="Resources\bandeira-corte2.png" />
+    <Content Include="Resources\bandeira-corte3.png" />
+    <Content Include="Resources\bandeira.jpg" />
+    <Content Include="Resources\bandeira.png" />
+    <Content Include="Resources\bandeira1.jpg" />
+    <Content Include="Resources\bandeira1.png" />
+    <Content Include="Resources\bandeira2.jpg" />
+    <Content Include="Resources\bandeira2.png" />
+    <Content Include="Resources\bandeira3.png" />
+    <Content Include="Resources\bandeiraurss.png" />
+    <Content Include="Resources\black.png" />
+    <Content Include="Resources\black1.png" />
+    <Content Include="Resources\blackyellow.png" />
+    <Content Include="Resources\camoAzul.jpg" />
+    <Content Include="Resources\canhaozinho.png" />
+    <Content Include="Resources\corinicialquadrados.jpg" />
+    <Content Include="Resources\formLista.jpg" />
+    <Content Include="Resources\guerra1.png" />
+    <Content Include="Resources\guerra11.png" />
+    <Content Include="Resources\imagemMulti.jpg" />
+    <Content Include="Resources\imgLista.png" />
+    <Content Include="Resources\imgLista1.png" />
+    <Content Include="Resources\imgMulti.png" />
+    <Content Include="Resources\inicio.png" />
+    <Content Include="Resources\inicio1.png" />
+    <Content Include="Resources\inicio2.png" />
+    <Content Include="Resources\inicio3.png" />
+    <Content Include="Resources\intro.jpg" />
+    <Content Include="Resources\iron.jpg" />
+    <Content Include="Resources\madeira.png" />
+    <Content Include="Resources\mapamomundiantigo.jpg" />
+    <Content Include="Resources\mapamundi.png" />
+    <Content Include="Resources\naviowp1.jpg" />
+    <Content Include="Resources\naviowp11.jpg" />
+    <Content Include="Resources\naviowp2.jpg" />
+    <Content Include="Resources\naviowp3.jpg" />
+    <Content Include="Resources\next.bmp" />
+    <Content Include="Resources\pearl harbor.jpg" />
+    <Content Include="Resources\prior.bmp" />
+    <Content Include="Resources\Screenshot_1.png" />
+    <Content Include="Resources\selecao1.jpg" />
+    <Content Include="Resources\selecao2.jpg" />
+    <Content Include="Resources\selecao3.jpg" />
+    <Content Include="Resources\selecao4.jpg" />
+    <Content Include="Resources\selecao5.jpg" />
+    <Content Include="Resources\selecao6.jpg" />
+    <Content Include="Resources\selecao7.jpg" />
+    <Content Include="Resources\shipdestoyed.jpg" />
+    <Content Include="Resources\splash.png" />
+    <Content Include="Resources\submarinoPlano.jpg" />
+    <Content Include="Resources\testegimp.jpg" />
+    <Content Include="Resources\trapezio.png" />
+    <Content Include="Resources\try.jpg" />
+    <Content Include="Resources\urss3.jpg" />
+    <Content Include="Resources\vs.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -85,7 +85,7 @@
             this.btnLan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLan.Font = new System.Drawing.Font("Comic Sans MS", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLan.ForeColor = System.Drawing.Color.Black;
-            this.btnLan.Location = new System.Drawing.Point(325, 177);
+            this.btnLan.Location = new System.Drawing.Point(335, 177);
             this.btnLan.Name = "btnLan";
             this.btnLan.Size = new System.Drawing.Size(212, 60);
             this.btnLan.TabIndex = 1;
@@ -101,7 +101,7 @@
             this.btnBack.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBack.Font = new System.Drawing.Font("Comic Sans MS", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBack.Location = new System.Drawing.Point(325, 332);
+            this.btnBack.Location = new System.Drawing.Point(335, 332);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(212, 60);
             this.btnBack.TabIndex = 2;
@@ -152,8 +152,7 @@
             this.pbxURSS.BackColor = System.Drawing.Color.Transparent;
             this.pbxURSS.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pbxURSS.BackgroundImage")));
             this.pbxURSS.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pbxURSS.Image = global::pTesteBatalhaNaval.Properties.Resources.bandeiraurss;
-            this.pbxURSS.Location = new System.Drawing.Point(30, 90);
+            this.pbxURSS.Location = new System.Drawing.Point(40, 90);
             this.pbxURSS.Name = "pbxURSS";
             this.pbxURSS.Size = new System.Drawing.Size(120, 250);
             this.pbxURSS.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -169,7 +168,7 @@
             this.pbxNazi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pbxNazi.BackgroundImage")));
             this.pbxNazi.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbxNazi.Image = ((System.Drawing.Image)(resources.GetObject("pbxNazi.Image")));
-            this.pbxNazi.Location = new System.Drawing.Point(180, 90);
+            this.pbxNazi.Location = new System.Drawing.Point(190, 90);
             this.pbxNazi.Name = "pbxNazi";
             this.pbxNazi.Size = new System.Drawing.Size(120, 250);
             this.pbxNazi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -185,7 +184,7 @@
             this.pbxIngl.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pbxIngl.BackgroundImage")));
             this.pbxIngl.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbxIngl.Image = ((System.Drawing.Image)(resources.GetObject("pbxIngl.Image")));
-            this.pbxIngl.Location = new System.Drawing.Point(330, 90);
+            this.pbxIngl.Location = new System.Drawing.Point(340, 90);
             this.pbxIngl.Name = "pbxIngl";
             this.pbxIngl.Size = new System.Drawing.Size(120, 250);
             this.pbxIngl.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -201,7 +200,7 @@
             this.pbxJapao.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pbxJapao.BackgroundImage")));
             this.pbxJapao.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbxJapao.Image = ((System.Drawing.Image)(resources.GetObject("pbxJapao.Image")));
-            this.pbxJapao.Location = new System.Drawing.Point(480, 90);
+            this.pbxJapao.Location = new System.Drawing.Point(490, 90);
             this.pbxJapao.Name = "pbxJapao";
             this.pbxJapao.Size = new System.Drawing.Size(120, 250);
             this.pbxJapao.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -217,7 +216,7 @@
             this.pbxEUA.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pbxEUA.BackgroundImage")));
             this.pbxEUA.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbxEUA.Image = ((System.Drawing.Image)(resources.GetObject("pbxEUA.Image")));
-            this.pbxEUA.Location = new System.Drawing.Point(630, 90);
+            this.pbxEUA.Location = new System.Drawing.Point(640, 90);
             this.pbxEUA.Name = "pbxEUA";
             this.pbxEUA.Size = new System.Drawing.Size(120, 250);
             this.pbxEUA.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -235,7 +234,7 @@
             this.btnAceitar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAceitar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAceitar.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAceitar.Location = new System.Drawing.Point(600, 344);
+            this.btnAceitar.Location = new System.Drawing.Point(610, 344);
             this.btnAceitar.Name = "btnAceitar";
             this.btnAceitar.Size = new System.Drawing.Size(150, 45);
             this.btnAceitar.TabIndex = 20;
@@ -252,7 +251,7 @@
             this.btnVoltar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVoltar.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVoltar.Location = new System.Drawing.Point(30, 347);
+            this.btnVoltar.Location = new System.Drawing.Point(40, 347);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(150, 45);
             this.btnVoltar.TabIndex = 21;
@@ -268,7 +267,7 @@
             this.lblErro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblErro.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblErro.ForeColor = System.Drawing.Color.Red;
-            this.lblErro.Location = new System.Drawing.Point(200, 355);
+            this.lblErro.Location = new System.Drawing.Point(210, 355);
             this.lblErro.Name = "lblErro";
             this.lblErro.Size = new System.Drawing.Size(370, 27);
             this.lblErro.TabIndex = 22;
@@ -294,7 +293,7 @@
             this.pbxLeft.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pbxLeft.BackgroundImage")));
             this.pbxLeft.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxLeft.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pbxLeft.Location = new System.Drawing.Point(0, 177);
+            this.pbxLeft.Location = new System.Drawing.Point(5, 177);
             this.pbxLeft.Name = "pbxLeft";
             this.pbxLeft.Size = new System.Drawing.Size(30, 30);
             this.pbxLeft.TabIndex = 24;
@@ -308,7 +307,7 @@
             this.pbxRight.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pbxRight.BackgroundImage")));
             this.pbxRight.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxRight.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pbxRight.Location = new System.Drawing.Point(750, 177);
+            this.pbxRight.Location = new System.Drawing.Point(769, 177);
             this.pbxRight.Name = "pbxRight";
             this.pbxRight.Size = new System.Drawing.Size(30, 30);
             this.pbxRight.TabIndex = 25;
@@ -338,7 +337,7 @@
             this.btnCreditos.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCreditos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCreditos.Font = new System.Drawing.Font("Comic Sans MS", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCreditos.Location = new System.Drawing.Point(325, 257);
+            this.btnCreditos.Location = new System.Drawing.Point(335, 257);
             this.btnCreditos.Name = "btnCreditos";
             this.btnCreditos.Size = new System.Drawing.Size(212, 60);
             this.btnCreditos.TabIndex = 27;
@@ -352,7 +351,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(780, 402);
+            this.ClientSize = new System.Drawing.Size(805, 402);
             this.Controls.Add(this.lbNivel);
             this.Controls.Add(this.pbxRight);
             this.Controls.Add(this.pbxLeft);
